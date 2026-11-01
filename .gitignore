@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Analysis outputs (this repo stores skills, not results)
+outputs/
+run_manifest.json
+
+# Geospatial sidecars
+*.gpkg-journal
+*.gpkg-wal
+*.qmd~

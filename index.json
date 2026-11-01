@@ -1,0 +1,78 @@
+{
+  "skills": [
+    {
+      "name": "geostatistical-diagnostics",
+      "version": "de40a1e5ae7b",
+      "files": [
+        "references/diagnostics.md",
+        "scripts/spatial_structure.py",
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "kriging-interpolation",
+      "version": "0ec8e9d5add8",
+      "files": [
+        "scripts/ok_kriging.py",
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "map-figures",
+      "version": "72f5a7758a4f",
+      "files": [
+        "references/cartography.md",
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "point-pattern-analysis",
+      "version": "acdfdee4e241",
+      "files": [
+        "scripts/ripley_k.py",
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "reproducible-pipeline",
+      "version": "4d12da3bb4b7",
+      "files": [
+        "references/pipeline.md",
+        "scripts/run_manifest.py",
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "spatial-analysis-plan",
+      "version": "413a02239f0b",
+      "files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "spatial-data-contract",
+      "version": "79d3a3aa4b86",
+      "files": [
+        "scripts/audit_geodata.py",
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "spatial-regression",
+      "version": "33c04ef60089",
+      "files": [
+        "references/model-choice.md",
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "spatial-reporting",
+      "version": "802c85e994ae",
+      "files": [
+        "references/checklist.md",
+        "scripts/check_deliverables.py",
+        "SKILL.md"
+      ]
+    }
+  ]
+}
