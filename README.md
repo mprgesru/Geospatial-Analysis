@@ -4,19 +4,25 @@ OpenCode skills for spatial, geostatistical, and reproducible research
 analysis. Each skill is a self-contained directory: `SKILL.md` plus optional
 `scripts/` and `references/`.
 
-Nine skills, in the order a study uses them:
+Fifteen skills, in the order a study uses them:
 
 | Skill | Purpose |
 | --- | --- |
 | `spatial-analysis-plan` | Fix estimand, support, CRS, weights, and validation before modeling |
 | `spatial-data-contract` | Audit and freeze inputs; CRS, geometry, sentinels, provenance |
 | `geostatistical-diagnostics` | Moran's I, variograms, anisotropy, leak-proof validation |
+| `hotspot-analysis` | Getis-Ord Gi*, scale choice, FDR, period comparison |
+| `spatial-outlier-analysis` | Attribute vs spatial outliers vs clusters, LISA, DBSCAN |
 | `spatial-regression` | SAR/SEM/SDM/SLX, direct and indirect effects, GWR/MGWR |
+| `weighted-regression` | GWR/MGWR bandwidths, local collinearity, weighted surfaces |
 | `kriging-interpolation` | Ordinary/universal/indicator/block kriging with uncertainty |
 | `point-pattern-analysis` | CSR tests, Ripley's K/L with Monte Carlo envelopes |
+| `site-suitability` | Constraints vs factors, weights, weighted overlay, sensitivity |
+| `flood-inundation` | DEM conditioning, HAND, stage and hydrodynamic scenarios |
 | `map-figures` | Publication cartography and uncertainty panels |
 | `spatial-reporting` | Methods, results, checklist, data availability |
 | `reproducible-pipeline` | One-command rebuild, pinned environment, run manifest |
+| `arcgis-pro-analysis` | Current Pro tools, `.swm`/`.ssm` artifacts, ArcPy logging |
 
 ## Use from OpenCode
 
@@ -88,10 +94,15 @@ The scripts were tested on synthetic data before publication:
 | --- | --- |
 | `spatial-data-contract/scripts/audit_geodata.py` | flags sentinels, duplicate geometry, missing CRS |
 | `geostatistical-diagnostics/scripts/spatial_structure.py` | Moran's I and variogram on a known smooth field |
+| `hotspot-analysis/scripts/getis_ord.py` | planted hotspot recovered: 27 hot, 0 cold, max z = 13.3 |
+| `spatial-outlier-analysis/scripts/local_moran.py` | planted cluster and outlier recovered: 15 HH, 1 HL |
 | `kriging-interpolation/scripts/ok_kriging.py` | exact interpolation at data points with zero nugget |
 | `point-pattern-analysis/scripts/ripley_k.py` | uniform p = 0.60 vs clustered p = 0.005 |
 | `reproducible-pipeline/scripts/run_manifest.py` | detects a changed output hash |
 | `spatial-reporting/scripts/check_deliverables.py` | blocks on a FAIL verdict |
+
+The Local Moran analytical variance was checked against 40,000 simulated
+randomizations: formula/simulated variance ratio 0.994.
 
 ## Licence
 

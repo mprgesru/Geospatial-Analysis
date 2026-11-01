@@ -1,12 +1,37 @@
 {
   "skills": [
     {
+      "name": "arcgis-pro-analysis",
+      "version": "b25ab24ceaf4",
+      "files": [
+        "SKILL.md",
+        "references/toolbox-map.md"
+      ]
+    },
+    {
+      "name": "flood-inundation",
+      "version": "b3e1556efaf2",
+      "files": [
+        "SKILL.md",
+        "references/hydrology.md"
+      ]
+    },
+    {
       "name": "geostatistical-diagnostics",
       "version": "01d571bf1eea",
       "files": [
         "SKILL.md",
         "references/diagnostics.md",
         "scripts/spatial_structure.py"
+      ]
+    },
+    {
+      "name": "hotspot-analysis",
+      "version": "f684b2d0e864",
+      "files": [
+        "SKILL.md",
+        "references/getis-ord.md",
+        "scripts/getis_ord.py"
       ]
     },
     {
@@ -43,6 +68,14 @@
       ]
     },
     {
+      "name": "site-suitability",
+      "version": "e89c6962aa4f",
+      "files": [
+        "SKILL.md",
+        "references/mcda.md"
+      ]
+    },
+    {
       "name": "spatial-analysis-plan",
       "version": "413a02239f0b",
       "files": [
@@ -55,6 +88,15 @@
       "files": [
         "SKILL.md",
         "scripts/audit_geodata.py"
+      ]
+    },
+    {
+      "name": "spatial-outlier-analysis",
+      "version": "64d06e91bc40",
+      "files": [
+        "SKILL.md",
+        "references/local-moran.md",
+        "scripts/local_moran.py"
       ]
     },
     {
@@ -72,6 +114,14 @@
         "SKILL.md",
         "references/checklist.md",
         "scripts/check_deliverables.py"
+      ]
+    },
+    {
+      "name": "weighted-regression",
+      "version": "77594139ce9f",
+      "files": [
+        "SKILL.md",
+        "references/gwr-arcgis.md"
       ]
     }
   ]
