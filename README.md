@@ -44,7 +44,7 @@ git submodule add https://github.com/mprgesru/Geospatial-Analysis.git skills/geo
 ```jsonc
 {
   "skills": [
-    "https://raw.githubusercontent.com/mprgesru/Geospatial-Analysis/v1.0.0/"
+    "https://raw.githubusercontent.com/mprgesru/Geospatial-Analysis/v1.0.1/"
   ]
 }
 ```

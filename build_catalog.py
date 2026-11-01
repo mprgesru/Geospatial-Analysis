@@ -23,7 +23,7 @@ SKIP = {".git", ".github", "__pycache__", ".venv", "node_modules"}
 
 def skill_dirs() -> list[Path]:
     found = []
-    for path in sorted(ROOT.iterdir()):
+    for path in sorted(ROOT.iterdir(), key=lambda p: p.name):
         if not path.is_dir() or path.name in SKIP or path.name.startswith("."):
             continue
         if (path / "SKILL.md").is_file():
@@ -33,7 +33,10 @@ def skill_dirs() -> list[Path]:
 
 def files_of(directory: Path) -> list[str]:
     files = []
-    for path in sorted(directory.rglob("*")):
+    for path in sorted(
+        directory.rglob("*"),
+        key=lambda p: p.relative_to(directory).as_posix(),
+    ):
         if not path.is_file():
             continue
         rel = path.relative_to(directory)

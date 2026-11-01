@@ -2,44 +2,44 @@
   "skills": [
     {
       "name": "geostatistical-diagnostics",
-      "version": "de40a1e5ae7b",
+      "version": "01d571bf1eea",
       "files": [
+        "SKILL.md",
         "references/diagnostics.md",
-        "scripts/spatial_structure.py",
-        "SKILL.md"
+        "scripts/spatial_structure.py"
       ]
     },
     {
       "name": "kriging-interpolation",
-      "version": "0ec8e9d5add8",
+      "version": "07768e3afaa4",
       "files": [
-        "scripts/ok_kriging.py",
-        "SKILL.md"
+        "SKILL.md",
+        "scripts/ok_kriging.py"
       ]
     },
     {
       "name": "map-figures",
-      "version": "72f5a7758a4f",
+      "version": "3524329cd345",
       "files": [
-        "references/cartography.md",
-        "SKILL.md"
+        "SKILL.md",
+        "references/cartography.md"
       ]
     },
     {
       "name": "point-pattern-analysis",
-      "version": "acdfdee4e241",
+      "version": "5fe050ede963",
       "files": [
-        "scripts/ripley_k.py",
-        "SKILL.md"
+        "SKILL.md",
+        "scripts/ripley_k.py"
       ]
     },
     {
       "name": "reproducible-pipeline",
-      "version": "4d12da3bb4b7",
+      "version": "8d62042ab57f",
       "files": [
+        "SKILL.md",
         "references/pipeline.md",
-        "scripts/run_manifest.py",
-        "SKILL.md"
+        "scripts/run_manifest.py"
       ]
     },
     {
@@ -51,27 +51,27 @@
     },
     {
       "name": "spatial-data-contract",
-      "version": "79d3a3aa4b86",
+      "version": "08ab7b9726ed",
       "files": [
-        "scripts/audit_geodata.py",
-        "SKILL.md"
+        "SKILL.md",
+        "scripts/audit_geodata.py"
       ]
     },
     {
       "name": "spatial-regression",
-      "version": "33c04ef60089",
+      "version": "476ba6acdd62",
       "files": [
-        "references/model-choice.md",
-        "SKILL.md"
+        "SKILL.md",
+        "references/model-choice.md"
       ]
     },
     {
       "name": "spatial-reporting",
-      "version": "802c85e994ae",
+      "version": "ae0a14956d7a",
       "files": [
+        "SKILL.md",
         "references/checklist.md",
-        "scripts/check_deliverables.py",
-        "SKILL.md"
+        "scripts/check_deliverables.py"
       ]
     }
   ]
